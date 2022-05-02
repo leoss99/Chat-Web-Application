@@ -1,0 +1,49 @@
+@media (min-width: 1024px) {
+
+    #app-view {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    #app-view {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #app-view {
+        width: 100%;
+    }
+}
+
+
+div.message{
+    text-align: left;
+    background-color:aqua;
+
+}
+
+div.my-message{
+    text-align: right;
+    background-color:brown;
+
+}
+
+#app-menu:hover {
+    color: red;
+    background-color: dimgray;
+
+}
+
+a:hover {
+    color: yellow;
+  }
+
+
+.room-list > li:hover {
+    color: green;
+    background-color: deeppink;
+}
